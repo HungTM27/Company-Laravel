@@ -1,0 +1,247 @@
+.box-section-timesheet {
+    grid-column-gap: 20px;
+}
+
+:root {
+    --color-hr-1: rgb(10, 132, 255);
+    --color-hr-2: rgb(0, 188, 212);
+    --color-hr-3: rgb(255, 69, 58);
+    --color-hr-4: rgb(0, 177, 79);
+    --color-hr-5: rgb(255, 159, 10);
+    --color-hr-6: rgb(187, 187, 187);
+}
+.box-section-timesheet .tabs {
+    align-content: flex-start;
+    grid-row-gap: 20px;
+}
+.box-section-timesheet .tab-item {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    transition: .3s;
+    border-radius: 10px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+}
+.box-section-timesheet .card .card-header {
+    box-shadow: unset !important;
+}
+.box-section-timesheet .tab-item:hover{
+    border-left: 3px solid var(--ui-outline);
+}
+.box-section-timesheet .tab-item.active {
+    border-left: 3px solid var(--ui-outline);
+}
+
+.box-section-timesheet .tab-content {
+    padding: 10px 0;
+    margin-left: 20px;
+    background-color: #fff;
+}
+.box-section-timesheet .tab-pane {
+    display: none;
+}
+.box-section-timesheet .tab-pane.active {
+    display: block;
+}
+.box-section-timesheet .tab-pane{
+    padding-left: 10px;
+}
+.box-section-timesheet .select-time select {
+    width: 100px;
+    display: inline;
+}
+
+/* .box-section-timesheet .select-time{
+    display: none;
+} */
+.box-section-timesheet .tab-item {
+    font-size: 20px;
+    padding: 12px;
+    text-transform: none;
+}
+.box-section-timesheet .grid_wide{
+    display: flex;
+}
+.box-section-timesheet .content-work-head,.work-head-left{
+    display: flex;
+    padding-left: 10px;
+
+}
+.box-section-timesheet .table_manager th, .table_manager td {
+    border-collapse: collapse;
+    border: 1px solid rgb(54, 53, 53);
+    height: 70px;
+    width: auto;
+}
+.box-section-timesheet .table th, .table td{
+    border-right: 1px solid #ccc;
+
+
+}
+.box-section-timesheet .table_manager tr td{
+    text-align: center;
+}
+.box-section-timesheet .timeworks{
+    display: grid;
+    grid-template-rows: 30px 30px;
+}
+.box-section-timesheet .table_manager th{
+    width: 150px;
+    text-align: center;
+}
+.box-section-timesheet .tab-radio{
+    display: grid;
+    grid-row: 50px 100px;
+}
+.box-section-timesheet .tab-radio input {
+    margin-right: 10px;
+}
+.box-section-timesheet .table-align-center {
+    vertical-align: inherit !important;
+}
+.box-section-timesheet .pl-index {
+    padding-left: 150px !important;
+}
+.box-section-timesheet .text-position {
+    position: absolute;
+    background-color: #fff;
+    border-bottom-color: unset !important;
+    border: unset !important;
+    width: 130px;
+    height: 80px;
+    line-height: 60px;
+    padding: 0;
+}
+
+.box-section-timesheet .table-border-style th, .box-section-timesheet .table-border-style td {
+    height: 80px;
+    width: 200px;
+    text-align: center;
+}
+
+.table-responsive table{
+    overflow-x: scroll;
+}
+.rounded-full, .flex-wrap  {
+    width: 10px;
+    height: 10px;
+    border-radius:9999px;
+
+}
+.items-center{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    align-items: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-grey55{
+    padding-left: 5px;
+}
+/*
+@media(min-width: 1200px){
+    .box-section-timesheet .card .tab-pane .row{
+        width: 68.1vw;
+    }
+    .box-section-timesheet .card .tab-pane .task_Manager{
+        width: 67.1vw;
+    }
+} */
+
+/* @media(max-width: 1200px){
+    .box-section-timesheet .card .tab-pane .row{
+        width: 84vw;
+    }
+    .box-section-timesheet .card .tab-pane .task_Manager{
+        width: 84vw;
+    }
+} */
+
+.box-section-timesheet .table-border-style th {
+    min-width: 150px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+}
+.box-section-timesheet .pagination .page-item .page-link {
+    margin: unset !important;
+}
+.box-section-timesheet .mx-datepicker {
+    width: 100%;
+}
+.box-section-timesheet .mx-input {
+    height: 38px;
+}
+.box-section-timesheet .vue-treeselect__multi-value-label, .vue-treeselect__value-remove {
+    display: table-cell !important;
+    margin-top: 0 !important;
+}
+
+.box-section-timesheet .vue-treeselect__control {
+    height: 38px !important;
+}
+
+.box-section-timesheet .setting-timesheet input{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.mx-datepicker-popup {
+    z-index: 1000000 !important;
+}
+
+.bg-customize-hr-1 {
+    background-color: var(--color-hr-1);
+    color: #fff;
+}
+
+.bg-customize-hr-2 {
+    background-color: var(--color-hr-2);
+    color: #fff;
+}
+
+.bg-customize-hr-3 {
+    background-color: var(--color-hr-3);
+    color: #fff;
+}
+
+.bg-customize-hr-4 {
+    background-color: var(--color-hr-4);
+    color: #fff;
+}
+
+.bg-customize-hr-5 {
+    background-color: var(--color-hr-5);
+    color: #fff;
+}
+
+.bg-customize-hr-6 {
+    background-color: var(--color-hr-6);
+    color: #fff;
+}
+
+.ps-absolute {
+    position: absolute !important;
+    z-index: 10;
+    background: #fff;
+}
+
+.ps-left {
+    padding-left: 260px !important;
+    padding-right: 55px !important;;
+}
+.tabletimekeeps {
+    transition: 0.3s;
+}
+.tabletimekeeps:hover {
+    box-shadow: inset 0px 1px 7px 0px #ffff;
+}
